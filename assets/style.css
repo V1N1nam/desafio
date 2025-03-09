@@ -1,0 +1,87 @@
+html {
+  background: url("./images/background-pattern-desktop.svg") no-repeat center
+      top,
+    hsl(275, 100%, 97%); /* Cor sólida no fundo */
+
+  background-size: 100% 44.8vh; /* Imagem ocupa 40% da altura, cor preenche o resto */
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, center;
+
+  height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
+  font-family: "Work Sans", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: auto;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.imgStar {
+  width: 30px;
+  height: 30px;
+  margin-top: 3px;
+}
+
+.main h1 {
+  font-size: 50px;
+  display: flex;
+  float: left;
+  padding: 16px;
+  gap: 8px;
+  color: hsl(292, 42%, 14%);
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  height: auto;
+  justify-content: space-around;
+}
+
+.titleSummary {
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+  margin: 15px;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+details p {
+  font-size: 16px;
+  opacity: 0.5;
+  text-align: justify;
+  font-weight: 600;
+  color: hsl(292, 16%, 49%);
+  margin: 20px;
+}
+
+.imgSummary {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}

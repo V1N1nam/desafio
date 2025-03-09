@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Exibe o site corretamente com base no dispositivo do usuário -->
     <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="icon"
       type="image/png"
@@ -18,62 +25,71 @@
   </head>
   <body>
     <main class="main">
-      <h1><img src="assets/images/icon-star.svg" alt="" />FAQs</h1>
+      <h1>
+        <img class="imgStar" src="assets/images/icon-star.svg" alt="" />FAQs
+      </h1>
       <div class="container">
-        <details>
-          <summary>
+        <details class="datailsAsk">
+          <summary class="titleSummary">
             O que é o Frontend Mentor, e como ele pode me ajudar?
-            <img src="assets/images/icon-plus.svg" alt="" />
-            <p>
-              O Frontend Mentor oferece desafios de codificação realistas para
-              ajudar desenvolvedores a aprimorar suas habilidades de codificação
-              frontend com projetos em HTML, CSS e JavaScript. É adequado para
-              todos os níveis e ideal para a construção de portfólio.
-            </p>
+            <img class="imgSummary" src="assets/images/icon-plus.svg" alt="" />
           </summary>
+          <p class="pSummary">
+            O Frontend Mentor oferece desafios de codificação realistas para
+            ajudar desenvolvedores a aprimorar suas habilidades de codificação
+            frontend com projetos em HTML, CSS e JavaScript. É adequado para
+            todos os níveis e ideal para a construção de portfólio.
+          </p>
         </details>
+
         <details>
-          <summary>
-            O Frontend Mentor é gratuito?
-            <img src="assets/images/icon-plus.svg" alt="" />
-            <p>
-              Sim, o Frontend Mentor oferece desafios de codificação gratuitos e
-              pagos, sendo que a opção gratuita oferece acesso a uma gama de
-              projetos adequados para todos os níveis de habilidade.
-            </p>
+          <summary class="titleSummary">
+            O Frontend Mentor é gratuito?<img
+              class="imgSummary"
+              src="assets/images/icon-plus.svg"
+              alt=""
+            />
           </summary>
+
+          <p>
+            Sim, o Frontend Mentor oferece desafios de codificação gratuitos e
+            pagos, sendo que a opção gratuita oferece acesso a uma gama de
+            projetos adequados para todos os níveis de habilidade.
+          </p>
         </details>
+
         <details>
-          <summary>
-            Posso usar os projetos do Frontend Mentor no meu portfólio?
-            <img src="assets/images/icon-plus.svg" alt="" />
-            <p>
-              Sim, você pode usar os projetos concluídos no Frontend Mentor em
-              seu portfólio. É uma excelente maneira de mostrar suas habilidades
-              para potenciais empregadores!
-            </p>
+          <summary class="titleSummary">
+            Posso usar os projetos do Frontend Mentor no meu portfólio?<img
+              class="imgSummary"
+              src="assets/images/icon-plus.svg"
+              alt=""
+            />
           </summary>
+          <p>
+            Sim, você pode usar os projetos concluídos no Frontend Mentor em seu
+            portfólio. É uma excelente maneira de mostrar suas habilidades para
+            potenciais empregadores!
+          </p>
         </details>
+
         <details>
-          <summary>
-            Como posso obter ajuda se ficar preso em um desafio do Frontend
-            Mentor?
-            <img src="assets/images/icon-plus.svg" alt="" />
-            <p>
-              O melhor lugar para obter ajuda é na comunidade do Discord do
-              Frontend Mentor. Há um canal de ajuda onde você pode fazer
-              perguntas e buscar suporte de outros membros da comunidade.
-            </p>
+          <summary class="titleSummary">
+            Como posso obter ajuda se ficar preso em um desafio?<img
+              class="imgSummary"
+              src="assets/images/icon-plus.svg"
+              alt=""
+            />
           </summary>
+          <p>
+            O melhor lugar para obter ajuda é na comunidade do Discord do
+            Frontend Mentor. Há um canal de ajuda onde você pode fazer perguntas
+            e buscar suporte de outros membros da comunidade.
+          </p>
         </details>
       </div>
     </main>
 
-    <div class="attribution">
-      Desafio por
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Codificado por <a href="#">Seu Nome Aqui</a>.
-    </div>
+    <script src="assets/app.js"></script>
   </body>
 </html>
